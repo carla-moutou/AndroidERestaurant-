@@ -19,8 +19,11 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/le_resto"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="54dp" />
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/le_resto" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
