@@ -12,6 +12,7 @@ import com.example.restoagnes.databinding.ActivityCategoryBinding
 import com.example.restoagnes.models.Dish
 import com.example.restoagnes.models.Menu_result
 import com.google.gson.GsonBuilder
+import fr.isen.moutou.AndroidErestaurant.databinding.ActivityCategoryBinding
 import org.json.JSONObject
 
 
@@ -21,7 +22,7 @@ class CategoryActivity {
 
     class CategoryActivity : AppCompatActivity() {
 
-        private lateinit var binding:ActivityCategoryBinding//lateinit pour l'initialiser plus tard
+        private lateinit var binding: ActivityCategoryBinding//lateinit pour l'initialiser plus tard
 
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
